@@ -1,7 +1,7 @@
 Feature: To validate the Amazon Functionality
 
 
-  @SearchAction
+  @SearchAction @SC01
   Scenario: Search Functionality
 #    Given user navigates to Amazon Homepage
     When user enters the product name "iphone" in search box
