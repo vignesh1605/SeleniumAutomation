@@ -1,7 +1,7 @@
 Feature: To validate the Amazon Functionality
 
 
-  @SearchAction @SC01
+  @SearchAction @SC01 @regressiontest
   Scenario: Search Functionality
 #    Given user navigates to Amazon Homepage
     When user enters the product name "iphone" in search box
@@ -20,7 +20,7 @@ Feature: To validate the Amazon Functionality
     When user drag and drop the element
     #after
 
-  @StaticDropdown
+  @StaticDropdown @smoketest
   Scenario: static dropdown functionality
 #    Given user navigates to Amazon Homepage
     When user select the dropdown value

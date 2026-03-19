@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "html:target/testreport/htmltrport.html",
                 "json:target/testreport/jsonreport.json",
                 "junit:target/testreport/xmlreport.xml"},
-        tags = "@StaticDropdown"
+        tags = "@regressiontest"
 
 )
 public class RegressionRunner {
