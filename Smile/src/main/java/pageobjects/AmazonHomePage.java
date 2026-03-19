@@ -19,6 +19,7 @@ public class AmazonHomePage {
     }
 
     public void clickSearchIcon(){
+
         driver.findElement(By.id("nav-search-submit-button")).click();
     }
 
@@ -27,6 +28,10 @@ public class AmazonHomePage {
     }
 
     public void clickYourList(){
+
+    }
+
+    public void getPageTitle(){
 
     }
 }
