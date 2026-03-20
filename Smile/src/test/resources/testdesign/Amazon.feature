@@ -8,7 +8,7 @@ Feature: To validate the Amazon Functionality
     And user clicks the search icon
     Then user Validates the title of search result page
 
-  @BabyWishlist
+  @BabyWishlist @smoketest
     Scenario: click the baby wishlist
 #    Given user navigates to Amazon Homepage
     When user click the baby wishlist
